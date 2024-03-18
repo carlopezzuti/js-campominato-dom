@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campominato Dom</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="flex">
+        <div id="logo" class="flex">
+            <figure>
+                <img src="./assets/img/mobile-logo.png" alt="logo boolean">
+            </figure>
+            <h1>Campo Minato</h1>
+        </div>
+        <div>
+            <form>
+                <label for="difficulty">Difficoltà:</label>
+                <select name="difficulty" id="difficulty">
+                    <option value="easy" id="easy">Easy</option>
+                    <option value="medium" id="medium">Medium</option>
+                    <option value="hard" id="hard">Hard</option>
+                </select>
+                <button id="playBtn" type="button">Play</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="flex">
+        <h3 id="score"></h3>
+        <div id="grid" class="flex">
+
+        </div>
+        <h3 id="result"></h3>
+    </main>
+
+    <footer class="flex">
+        <div>
+            <p>Made with &#x2665; by <a href="#">Boolean</a></p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
